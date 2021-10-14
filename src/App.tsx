@@ -1,8 +1,16 @@
+import Layout from './components/Layout';
+import AddTodoForm from './components/AddTodoForm';
+import TodoList from './components/TodoList';
+import CompleteItems from './components/CompleteItems';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Layout>
+        <AddTodoForm />
+        <TodoList />
+        <CompleteItems />
+      </Layout>
     </div>
   );
 }
