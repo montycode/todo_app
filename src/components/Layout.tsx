@@ -12,7 +12,7 @@ function Copyright(props: any) {
         {'Made by '}
         <Link color="inherit" href="https://github.com/montycode">
           Montycode
-        </Link>{' '}
+        </Link>{', '}
         {new Date().getFullYear()}
         {'.'}
       </Typography>
